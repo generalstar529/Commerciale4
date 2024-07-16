@@ -1,0 +1,23 @@
+.company-detail {
+	padding-top: 46px;
+}
+
+.company-detail .shadow-box {
+	box-shadow: 0 0.1em 0.2em #ddd;
+}
+
+.company-detail .sub-title {
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+@media (max-width: 576px) {
+	.company-detail {
+		padding: 87px 0 0 0;
+		margin-bottom: 0;
+	}
+	.company-detail .sub-title {
+		font-size: 16px;
+	}
+}

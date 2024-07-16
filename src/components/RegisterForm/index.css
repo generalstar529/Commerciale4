@@ -1,0 +1,70 @@
+.register-form {
+    min-width: 760px;
+    padding: 20px 10px;
+    margin-top: 10px;
+}
+
+@media (max-width: 576px) {
+    .register-form {
+        min-width: 0;
+        width: 100% !important;
+        padding: 20px;
+        margin-top: 0;
+    }
+    .register-form .input-row {
+        padding: 10px !important;
+    }
+    .register-form .info-hint {
+        padding: 8px 16px 0 16px !important;
+        margin-left: 0 !important;
+    }
+    .register-form button.back {
+        margin-left: 0 !important;
+    }
+}
+
+.register-form span {
+    color: var(--colorText);
+    text-transform: uppercase;
+    display: block;
+}
+
+.register-form .input-row {
+    padding: 10px 80px;
+}
+
+.register-form .title {
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 24px;
+}
+
+.register-form input {
+    width: 100%;
+    background-color: var(--colorInputBg);
+    border: none;
+    padding-left: 10px;
+}
+
+.register-form .info-hint {
+    font-size: 12px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.register-form .info-hint i {
+    font-size: 15px;
+    color: var(--colorPrimary);
+}
+.register-form button.back {
+    min-width: 0;
+    background: transparent;
+    float: left;
+    font-size: 36px;
+    padding: 0;
+    margin-top: -10px;
+    margin-left: 10px;
+    color: var(--colorText);
+}
+.register-form .label-checkbox::before {
+    border: 1px solid var(--colorText);
+}

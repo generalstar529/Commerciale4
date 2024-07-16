@@ -1,0 +1,343 @@
+{
+    "companySearch": "Company search",
+    "profile": "Profile",
+    "logout": "Log Out",
+    "login": "Login",
+    "register": "Register",
+    "terms": "terms and condition",
+    "policy": "privacy policy",
+    "intro": "COMMERCIALE4.0 is a community of mechanical companies. We revolutionize the way companies connect with each other, building the networking of the future! Join us! No fees or hidden costs.",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "welcome": "welcome to the commerciale4.0 community!",
+    "stepHint": "In order to complete the access, please follow the next steps.",
+    "step": "Step",
+    "officialName": "Official Name",
+    "city": "City",
+    "vatNumber": "VAT number",
+    "atecoCode": "NACE CODE",
+    "pec": "PEC",
+    "emailAddress": "Email address",
+    "confirmPassword": "Confirm password",
+    "nextStep": "next step",
+    "completeRegistration": "complete registration",
+    "pecHint": "This inbox will be use only to certify the attendibility of the user",
+    "emailHint": "This inbox will be use to receive informations related to the service",
+    "registerHint": "In order to continue, confirm to accept the Privacy policy and Terms and conditions",
+    "completeHint": "After \"Complete registration\", you will receive a confirmation message in your PEC inbox",
+    "area": "area",
+    "region": "Region",
+    "radius": "Radius",
+    "km": "km",
+    "companyInfo": "company info",
+    "typeOfCompany": "Type of Company",
+    "searchWithTags": "Search with #TAGS",
+    "examples": "Examples",
+    "nEmployees": "N° employees",
+    "revenues": "Revenues",
+    "noLimit": "No limit",
+    "otherCode": "Other code",
+    "search": "Search",
+    "companyProfile": "Company Profile",
+    "createCompanyProfile": "Create your company profile including photos, description, info, contacts and much more.",
+    "advancedSearchSystem": "Advanced search system",
+    "makeDetailResearch": "Make detail research with the advantage of our TAG system! It's much easier to be found from other companies of the mechanical industry.",
+    "results": "results",
+    "relevance": "Relevance",
+    "employees": "Employees",
+    "nearest": "Nearest",
+    "farthest": "Farthest",
+    "filter": "Filter",
+    "officialWebsite": "official website",
+    "aboutUs": "About us",
+    "productSearvice": "Product & Service",
+    "contacts": "Contacts",
+    "contactsInfo": "Contacts & info",
+    "iso": "ISO",
+    "ateco": "NACE",
+    "type": "TYPE",
+    "introduction": "Introduction",
+    "whatWeDo": "What we do",
+    "news": "news",
+    "publishedOn": "Published on",
+    "details": "details",
+    "address": "Address",
+    "phone": "Phone",
+    "website": "Website",
+    "secondEmail": "2nd Email",
+    "profileInfo": "profile info",
+    "account": "account",
+    "chooseSystemPhoto": "Choose system photo",
+    "tags": "tags",
+    "selectMainKeyword": "Select the main keyword that represent your company.",
+    "typeToAdd": "Type to add",
+    "companyType": "Company type",
+    "makePost": "make a post",
+    "title": "Title",
+    "whatIsNew": "What is new?",
+    "uploadPhoto": "Upload a photo",
+    "noImageChoosed": "No image choosed",
+    "publish": "Publish",
+    "previousNews": "previous news",
+    "actions": "Actions",
+    "info": "Info",
+    "changePassword": "change password",
+    "oldPassword": "Old password",
+    "newPassword": "New password",
+    "confirm": "confirm",
+    "changeAccountEmail": "change account email",
+    "newEmail": "New email",
+    "confirmEmail": "Confirm email",
+    "insertPassword": "Insert password",
+    "deleteProfile": "delete profile",
+    "clickingDelete": "Clicking the DELETE button, your profile won't be displayed anymore. Commerciale4.0, as interms and condition, will be saving the informations for internal use.",
+    "infoNotEditable": "The displayed info are not editable",
+    "passwordNotCorrect": "Current password is not correct",
+    "passwordNotMatch": "Password doesn't match!",
+    "emailNotMatch": "Email doesn't match",
+    "emailChanged": "Email changed successfully!",
+    "description": "Description",
+    "pleaseSelectCity": "Please select a city",
+    "pleaseSelectAteco": "Please select an ATECO CODE",
+    "pleaseCheckPrivacy": "Please check Privacy and Policy",
+    "sentEmail": "We've sent an email to",
+    "toVerifyYourAccount": "to verify your account. Please check your email inbox to coutinue.",
+    "connectionFailed": "Connection failed!",
+    "isValid": "is valid!",
+    "shouldNotBeEmpty": "should not be empty!",
+    "isNotValid": "is not valid!",
+    "shouldBe7": "should be 7 characters at least!",
+    "shouldBe11": "should be 11 characters!",
+    "passswordNotMatch": "Password not match!",
+    "errorOccuredDelete": "An error occured due to delete.",
+    "wantToDelete": "Do you really want to delete?",
+    "wantToRemove": "Do you really want to remove?",
+    "k": "K",
+    "m": "M",
+    "b": "B",
+    "emailHasBeenSent": "Email has been sent",
+    "emailOrPasswordIncorrect": "Email or password is incorrect",
+    "emailExist": "The email already exists.",
+    "youHaveBeenRegistered": "You have been registered",
+    "aDocumentFailed": "A document creation failed!",
+    "databaseFailed": "Database connection failed!",
+    "sentResetPassword": "We've sent an email to reset your password. Please check your email inbox.",
+    "emailNotExist": "The email address doesn't exist. Please enter the email corretly.",
+    "userNotExist": "The user doesn't exist",
+    "passwordChanged": "Password has been changed",
+    "imageUploadFailed": "Image uploading failed!",
+    "imageDeleteFailed": "Image deleting failed!",
+    "deleteSuccess": "Deleted successfully!",
+    "goToNews": "Go to news",
+    "noNews": "No news available",
+    "select": "--Select--",
+    "max": "Max",
+    "left": "Left",
+    "min": "Min",
+    "cropImage": "Crop image",
+    "save": "Save",
+    "cancel": "Cancel",
+    "rememberMe": "Remember me",
+    "productName": "Product name",
+    "photo": "Photos",
+    "noResults": "No results",
+    "pageNotFound": "Error - Page Not Found",
+    "checkUrl": "Please check the URL",
+    "otherwise": "Otherwise",
+    "clickHere": "Click here",
+    "redirectHome": "to be redirected to the homepage.",
+    "forgotPasswordMsg": "When you fill in your registered email address, you will be sent instructions on how to reset your password.",
+    "sendEmail": "Send email",
+    "productProvider": "Product Provider",
+    "serviceProvider": "Service Provider",
+    "productServiceProvider": "Product & Service Provider",
+    "goToHome": "Go to home",
+    "intro1": "is THE community of mechanical companies. We revolutionize the way companies connect with each other, building the networking of the future!",
+    "joinUs": "Join us! No fees or hidden costs.",
+    "contactUs": "Contact us",
+    "resetYourPassword": "Reset your password",
+    "createPassword": "You can create your password here.",
+    "passwordReset": "Password has just been reseted",
+    "upTo": "Up to",
+    "readMore": "Read more",
+    "vatExist": "The vat number already exists.",
+    "pecExist": "The PEC address already exists.",
+    "notApproved": "The account has not been approved yet.",
+    "postFailed": "An error occured due to create a post.",
+    "showAll": "Show all",
+    "registeredCompanies": "Registered companies",
+    "unregisteredCompanies": "Not registered companies",
+    "atecoList": [
+        { "value": "0", "label": "Other code" },
+        {
+            "value": "24.10",
+            "label": "24.10 - Manufacture of basic iron and steel and of ferro-alloys"
+        },
+        {
+            "value": "24.20",
+            "label": "24.20 - Manufacture of tubes, pipes, hollow profiles and related fittings, of steel"
+        },
+        { "value": "24.31", "label": "24.31 - Cold drawing of bars" },
+        { "value": "24.32", "label": "24.32 - Cold rolling of narrow strip" },
+        { "value": "24.33", "label": "24.33 - Cold forming or folding" },
+        { "value": "24.34", "label": "24.34 - Cold drawing of wire" },
+        { "value": "24.41", "label": "24.41 - Precious metals production" },
+        { "value": "24.42", "label": "24.42 - Aluminium production" },
+        { "value": "24.43", "label": "24.43 - Lead, zinc and tin production" },
+        { "value": "24.44", "label": "24.44 - Copper production" },
+        { "value": "24.45", "label": "24.45 - Other non-ferrous metal production" },
+        { "value": "24.51", "label": "24.51 - Casting of iron" },
+        { "value": "24.52", "label": "24.52 - Casting of steel" },
+        { "value": "24.53", "label": "24.53 - Casting of light metals" },
+        {
+            "value": "24.54",
+            "label": "24.54 - Casting of other non-ferrous metals"
+        },
+        {
+            "value": "25.11",
+            "label": "25.11 - Manufacture of metal structures and parts of structures"
+        },
+        {
+            "value": "25.21",
+            "label": "25.21 - Manufacture of central heating radiators and boilers"
+        },
+        {
+            "value": "25.29",
+            "label": "25.29 - Manufacture of other tanks, reservoirs and containers of metal"
+        },
+        {
+            "value": "25.30",
+            "label": "25.30 - Manufacture of steam generators, except central heating hot water boilers"
+        },
+        {
+            "value": "25.50",
+            "label": "25.50 - Forging, pressing, stamping and roll-forming of metal; powder metallurgy"
+        },
+        { "value": "25.61", "label": "25.61 - Treatment and coating of metals" },
+        { "value": "25.62", "label": "25.62 - Machining" },
+        {
+            "value": "25.70",
+            "label": "25.70 - Manufacture of cutlery, tools and general hardware"
+        },
+        {
+            "value": "25.93",
+            "label": "25.93 - Manufacture of wire products, chain and springs"
+        },
+        { "value": "25.94", "label": "25.94 - Manufacture of screws and rivets" },
+        { "value": "25.99", "label": "25.99 - 25.99. Manufacture of other tools" },
+        { "value": "27", "label": "27 - Manufacture of electrical equipment" },
+        {
+            "value": "28.11",
+            "label": "28.11 - Manufacture of engines and turbines, except aircraft, vehicle and cycle engines"
+        },
+        {
+            "value": "28.12",
+            "label": "28.12 - Manufacture of fluid power equipment"
+        },
+        {
+            "value": "28.13",
+            "label": "28.13 - Manufacture of other pumps and compressor"
+        },
+        {
+            "value": "28.14",
+            "label": "28.14 - Manufacture of other taps and valves"
+        },
+        {
+            "value": "28.15",
+            "label": "28.15 - Manufacture of bearings, gears, gearing and driving elements"
+        },
+        {
+            "value": "28.21",
+            "label": "28.21 - Manufacture of ovens, furnaces and furnace burners"
+        },
+        {
+            "value": "28.22",
+            "label": "28.22 - Manufacture of lifting and handling equipment"
+        },
+        {
+            "value": "28.24",
+            "label": "28.24 - Manufacture of power-driven hand tools"
+        },
+        {
+            "value": "28.25",
+            "label": "28.25 - Manufacture of non-domestic cooling and ventilation equipment"
+        },
+        {
+            "value": "28.29",
+            "label": "28.29 - Manufacture of other general-purpose machinery n.e.c."
+        },
+        {
+            "value": "28.30",
+            "label": "28.30 - Manufacture of agricultural and forestry machinery"
+        },
+        {
+            "value": "28.41",
+            "label": "28.41 - Manufacture of metal forming machinery"
+        },
+        { "value": "28.49", "label": "28.49 - Manufacture of other machine tools" },
+        {
+            "value": "28.91",
+            "label": "28.91 - Manufacture of machinery for metallurgy"
+        },
+        {
+            "value": "28.92",
+            "label": "28.92 - Manufacture of machinery for mining, quarrying and construction"
+        },
+        {
+            "value": "28.93",
+            "label": "28.93 - Manufacture of machinery for food, beverage and tobacco processing"
+        },
+        {
+            "value": "28.94",
+            "label": "28.94 - Manufacture of machinery for textile, apparel and leather production"
+        },
+        {
+            "value": "28.95",
+            "label": "28.95 - Manufacture of machinery for paper and paperboard production"
+        },
+        {
+            "value": "28.96",
+            "label": "28.96 - Manufacture of plastics and rubber machinery"
+        },
+        {
+            "value": "28.99",
+            "label": "28.99 - Manufacture of other special-purpose machinery n.e.c."
+        },
+        { "value": "29.10", "label": "29.10 - Manufacture of motor vehicles" },
+        {
+            "value": "29.20",
+            "label": "29.20 - Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers"
+        },
+        {
+            "value": "29.30",
+            "label": "29.30 - Manufacture of parts and accessories for motor vehicles"
+        },
+        {
+            "value": "33.11",
+            "label": "33.11 - Repair of fabricated metal products"
+        },
+        { "value": "33.12", "label": "33.12 - Repair of machinery" },
+        {
+            "value": "33.20",
+            "label": "33.20 - Installation of industrial machinery and equipment"
+        },
+        {
+            "value": "46.61",
+            "label": "46.61 - Wholesale of agricultural machinery, equipment and supplies"
+        },
+        { "value": "46.62", "label": "46.62 - Wholesale of machine tools" },
+        {
+            "value": "46.63",
+            "label": "46.63 - Wholesale of mining, construction and civil engineering machinery"
+        },
+        {
+            "value": "46.69.20",
+            "label": "46.69.20 - Wholesale of other machinery and equipment"
+        },
+        {
+            "value": "46.69.99",
+            "label": "46.69.99 - Wholesale of trade necessities n.e.c"
+        }
+    ]
+}

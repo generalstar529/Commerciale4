@@ -1,0 +1,193 @@
+.detail-body {
+    display: flex;
+}
+
+.detail-body .left-panel {
+    width: 300px;
+}
+@media (max-width: 1200px) and (min-width: 577px) {
+    .detail-body .left-panel {
+        padding-left: 20px;
+    }
+}
+
+.detail-body .right-panel {
+    flex: 1;
+    padding: 20px;
+    background: white;
+    min-height: calc(100vh - 316px - 46px);
+}
+
+.detail-body .menu-panel {
+    padding: 20px 20px 0 0;
+}
+
+.detail-body .menu {
+    min-height: 48px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+}
+
+.detail-body .menu.active {
+    color: var(--colorPrimary);
+    font-weight: bold;
+    /* border-left: 3px solid var(--colorPrimary); */
+    background: #eee;
+    text-shadow: 0 0 0.08em #888;
+    /* box-shadow: 0.1em 0.1em 0.2em #ccc; */
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.detail-body .menu i {
+    width: 40px;
+    font-size: 21px;
+}
+.detail-body .menu.active i {
+    width: 40px;
+    color: black;
+}
+
+.detail-body .info-panel {
+    padding: 30px 10px 20px 0;
+    margin-top: 10px;
+}
+.detail-body .info-panel p {
+    margin-bottom: 20px;
+}
+.detail-body .info-panel i {
+    font-size: 20px;
+}
+.detail-body .info-panel span {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+.detail-body .info-panel i,
+.detail-body .info-panel span {
+    margin: auto 0;
+    width: 60px;
+}
+.detail-body .info-panel .multi-values {
+    display: flex;
+    align-items: flex-start;
+    font-size: 14px;
+    margin: 20px 0;
+    /* margin-bottom: 20px; */
+}
+
+.detail-body .info-panel .multi-values i {
+    margin-top: 6px;
+}
+.detail-body .info-panel .multi-values span {
+    margin: 0;
+    padding-top: 4px;
+}
+
+.detail-body .info-panel .multi-values > div {
+    flex: 1;
+}
+.detail-body .info-panel .multi-values label {
+    padding: 0 8px;
+    border-radius: 4px;
+    background: #ccc;
+    margin: 4px 4px 4px 0;
+}
+.detail-body .info-panel .multi-values label.no-bg {
+    background: transparent;
+    padding-left: 0;
+}
+@media (max-width: 576px) {
+    .detail-body {
+        display: block;
+    }
+    .detail-body .left-panel {
+        width: 100%;
+    }
+    .detail-body .right-panel {
+        display: block;
+        margin: 0;
+        padding: 12px;
+        box-shadow: none !important;
+        background: transparent;
+
+        /* margin-top: 41px; */
+        min-height: 0;
+    }
+
+    /* .detail-body .left-panel,
+    .detail-body .right-panel {
+        height: auto;
+    } */
+    .detail-body .menu-panel {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        box-shadow: 0 -0.05em 0.2em #ddd;
+        position: relative;
+        width: 100%;
+        z-index: 10;
+    }
+    .detail-body .menu-panel hr {
+        display: none;
+    }
+
+    .detail-body .info-panel {
+        padding: 10px;
+        margin-top: 0;
+        background: white;
+    }
+    .detail-body .info-panel p {
+        margin-bottom: 8px;
+        display: inline-flex;
+        font-size: 13px;
+    }
+    .detail-body .info-panel i {
+        font-size: 16px;
+    }
+    .detail-body .info-panel span {
+        display: inline-block;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .detail-body .info-panel i,
+    .detail-body .info-panel span {
+        width: 50px;
+    }
+
+    .detail-body .info-panel .row-on-mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .detail-body .info-panel .multi-values {
+        margin: 0;
+        font-size: 13px;
+    }
+
+    .detail-body .menu {
+        padding: 8px 10px;
+        min-height: 0;
+        font-size: 15px;
+        text-align: center;
+        border: none;
+        flex: auto;
+    }
+
+    .detail-body .menu.active {
+        border-left: none;
+        border-bottom: 3px solid var(--colorPrimary);
+        box-shadow: none;
+        border-radius: 0;
+        background: transparent;
+        font-size: 15px;
+        text-shadow: none;
+    }
+}
+.font-size-style {
+    font-size: 16px;
+}

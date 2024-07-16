@@ -1,0 +1,26 @@
+.admin-panel .right-panel .dropdown-toggle {
+    border: none !important;
+}
+
+.admin-panel .right-panel .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0 transparent !important;
+}
+
+.admin-panel .right-panel .dropdown-menu {
+    padding: 2px 0;
+    min-width: 100px;
+}
+.admin-panel .right-panel .dropdown-menu.show {
+    display: block;
+    text-align: center;
+}
+.admin-panel .right-panel .dropdown-item:active {
+    background-color: #bbb !important;
+}
+.admin-panel .right-panel .dropdown-toggle.btn-primary.focus,
+.dropdown-toggle.btn-primary:hover {
+    background: #ffffff !important;
+}
+.admin-panel .right-panel .dropdown-toggle.btn-primary {
+    min-width: 100px;
+}

@@ -1,0 +1,370 @@
+{
+  "companySearch": "Cerca nome azienda",
+  "profile": "Profilo",
+  "logout": "Log Out",
+  "login": "Login",
+  "register": "Registrazione",
+  "terms": "Termini e condizioni",
+  "policy": "regole sulla privacy",
+  "intro": "COMMERCIALE4.0 è una comunità di aziende del settore manifatturiero. Digitaliziamo il modo in cui le aziende entrano in contatto tra di loro, costruendo il network del futuro! Iscriviti! Servizio gratuito!",
+  "email": "Email",
+  "password": "Password",
+  "forgotPassword": "Password dimenticata?",
+  "welcome": "Benvenuto nella community di Commerciale4.0!",
+  "stepHint": "Per completare l'accesso, segua i seguenti passaggi",
+  "step": "Passo",
+  "officialName": "Ragione sociale",
+  "city": "Città",
+  "vatNumber": "Codice fiscale/IVA",
+  "atecoCode": "Numero ATECO",
+  "pec": "PEC",
+  "emailAddress": "Indirizzo email",
+  "confirmPassword": "Conferma password",
+  "nextStep": "Passaggio successivo",
+  "completeRegistration": "Completa registrazione",
+  "pecHint": "Questa casella elettronica sarà utilizzata solo per certificare l'attendibilità dell'utente",
+  "emailHint": "In questa casella elettronica saranno inviate le informazioni legate al servizio",
+  "registerHint": "Per proseguire, confermi di accettare le regole sulla privacy e Termini e condizioni",
+  "completeHint": "Dopo aver concluso la registrazione, riceverà un messaggio di conferma nella casella d PEC",
+  "area": "Area",
+  "region": "Regione",
+  "radius": "Raggio",
+  "km": "km",
+  "companyInfo": "Info azienda",
+  "typeOfCompany": "Tipo di azienda",
+  "searchWithTags": "Ricerca tramite \"Parole chiave\"",
+  "examples": "Esempi",
+  "nEmployees": "N° dipendenti",
+  "revenues": "Fatturato",
+  "noLimit": "Nessun limite",
+  "otherCode": "Altro codice",
+  "search": "Cerca ",
+  "companyProfile": "Profilo aziendale",
+  "createCompanyProfile": "Crea il profilo online della tua azienda, con Foto, descrizione, contatti....e molto ancora!",
+  "advancedSearchSystem": "Sistema di ricerca avanzata",
+  "makeDetailResearch": "Può effettuare ricerche dettagliate! Con il nostro sistema di ricerca, tramite PAROLE CHIAVE, diventa molto più facile farsi raggiungere da potenziali clienti.",
+  "results": "Risultati",
+  "relevance": "Importanza",
+  "employees": "Dipendenti",
+  "nearest": "Più vicino",
+  "farthest": "Più lontano",
+  "filter": "Filtri",
+  "officialWebsite": "Sito ufficiale",
+  "aboutUs": "Su di noi",
+  "productSearvice": "Prodotti & Servizi",
+  "contacts": "Contatti",
+  "contactsInfo": "Contatti & info",
+  "iso": "ISO",
+  "ateco": "ATECO",
+  "type": "Tipo",
+  "introduction": "Introduzione",
+  "whatWeDo": "Cosa facciamo!",
+  "news": "Notizie",
+  "publishedOn": "Pubblicato il",
+  "details": "dettagli",
+  "address": "Indirizzo",
+  "phone": "Telefono",
+  "website": "Sito web",
+  "secondEmail": "Email secondaria",
+  "profileInfo": "Info Profilo",
+  "account": "Account",
+  "chooseSystemPhoto": "Foto copertina",
+  "tags": "Parole chiave",
+  "selectMainKeyword": "Selezioni le parole che rappresentano la sua attività al meglio",
+  "typeToAdd": "Digita per aggiungere",
+  "companyType": "Tipo di attività",
+  "makePost": "Pubblica una novità",
+  "title": "Titolo",
+  "whatIsNew": "Cosa c'è di nuovo?",
+  "uploadPhoto": "Carica foto",
+  "noImageChoosed": "Nessuna immagine selezionata",
+  "publish": "Pubblica",
+  "previousNews": "Notizie pubblicate",
+  "actions": "Azioni",
+  "info": "Info",
+  "changePassword": "Cambio password",
+  "oldPassword": "vecchia password",
+  "newPassword": "Nuova password",
+  "confirm": "Conferma",
+  "changeAccountEmail": "Cambio indirizzo email",
+  "newEmail": "Nuova email",
+  "confirmEmail": "Conferma email",
+  "insertPassword": "Inserisca password",
+  "deleteProfile": "Elimina profilo",
+  "clickingDelete": "Cliccando il tasto \"Elimina Profilo\", il suo profilo sarà rimosso. Commerciale4.0, come da termini e condizioni, si tratterrà nel mantenere i dati inseriti per scopi interni.",
+  "infoNotEditable": "Le seguenti informazioni non sono modificabili",
+  "passwordNotCorrect": "Password sbagliata",
+  "passwordNotMatch": "La password non coincide",
+  "emailNotMatch": "La email non coincide",
+  "emailChanged": "Cambio email avvenuto con successo!",
+  "description": "Descrizione",
+  "pleaseSelectCity": "Selezioni la provincia",
+  "pleaseSelectAteco": "Selezioni codice ateco",
+  "pleaseCheckPrivacy": "La invitiamo a controllare le regole sulla privacy",
+  "sentEmail": "Abbiamo inviato un'email a ",
+  "toVerifyYourAccount": "per verificare il suo account. La preghiamo di controllare la casella PEC per continuare la registrazione",
+  "connectionFailed": "Connessione fallita!",
+  "isValid": "è valido!",
+  "shouldNotBeEmpty": "il campo non deve essere vuoto!",
+  "isNotValid": "non valido!",
+  "shouldBe7": "deve essere di almeno 7 caratteri!",
+  "shouldBe11": "deve essere di 11 caratteri!",
+  "passswordNotMatch": "La password non coincide",
+  "errorOccuredDelete": "Si è verificato un errore a causa della eliminazione",
+  "wantToDelete": "Vuole procedere con la eliminazione?",
+  "wantToRemove": "Vuole procedere con la rimozione?",
+  "k": "Mila",
+  "m": "Milioni",
+  "b": "Miliardi",
+  "emailHasBeenSent": "La email è stata spedita",
+  "emailOrPasswordIncorrect": "Email o password sbagliata/i",
+  "emailExist": "Questa email risulta essere già registrata",
+  "youHaveBeenRegistered": "E' stato registrato",
+  "aDocumentFailed": "La creazione del documento non è andata a buon termine",
+  "databaseFailed": "La connessione al database non è andata a buon termine",
+  "sentResetPassword": "Abbiamo inviato un'email per confermare la sua password. La invitamo a controllare la cassella elettronica",
+  "emailNotExist": "L'indirizzo email non esiste. Inserisca l'indirizzo email corretto.",
+  "userNotExist": "L'utente non esiste",
+  "passwordChanged": "La password è stata sostituita",
+  "imageUploadFailed": "Caricamento immagine fallito!",
+  "imageDeleteFailed": "Cancellazione immagine fallito!",
+  "deleteSuccess": "Cancellazione con successo!",
+  "goToNews": "Vai alle notizie",
+  "noNews": "Nessuna notizia",
+  "select": "--Seleziona--",
+  "max": "Max",
+  "left": "Rimanenti",
+  "min": "Min",
+  "cropImage": "Ritaglia immagine",
+  "save": "Salva",
+  "cancel": "Cancella",
+  "rememberMe": "Ricordami",
+  "productName": "Nome prodotto/servizio",
+  "photo": "Foto",
+  "noResults": "Nessun risultato",
+  "pageNotFound": "Errore - Pagina non trovata",
+  "checkUrl": "Controlla il link",
+  "otherwise": "Altrimenti",
+  "clickHere": "Clicca qui",
+  "redirectHome": "reidirizzamento all'homepage",
+  "forgotPasswordMsg": "Una volta inserito l'indirizzo email, riceverà le istruzioni per cambiare la password",
+  "sendEmail": "Invia email",
+  "productProvider": "Fornitura di prodotti",
+  "serviceProvider": "Fornitura di servizi",
+  "productServiceProvider": "Fornitura di servizi e prodotti",
+  "goToHome": "Vai alla homepage",
+  "intro1": "è una comunità di aziende del settore manifatturiero. Digitaliziamo il modo in cui le aziende entrano in contatto tra di loro, costruendo il network del futuro!",
+  "joinUs": "Iscriviti! Servizio gratuito!",
+  "contactUs": "Contattaci",
+  "resetYourPassword": "Reimposta la tua password",
+  "createPassword": "Puoi creare qui la tua password.",
+  "passwordReset": "La password é stata reimpostata",
+  "upTo": "Fino a",
+  "readMore": "Leggi di più",
+  "vatExist": "Numero partita IVA già esistente",
+  "pecExist": "The PEC address already exists.",
+  "notApproved": "The account has not been approved yet.",
+  "postFailed": "An error occured due to create a post.",
+  "showAll": "Mostra tutti",
+  "registeredCompanies": "Aziende registrate",
+  "unregisteredCompanies": "Aziende non registrate",
+  "atecoList": [
+    { "value": "0", "label": "Altro codice" },
+    { "value": "24.10", "label": "24.10 - Siderurgia" },
+    {
+      "value": "24.20",
+      "label": "24.20 - Fabbricazione di tubi, condotti, profilati cavi e relativi accessori in acciaio"
+    },
+    { "value": "24.31", "label": "24.31 - Stiratura a freddo di barre" },
+    { "value": "24.32", "label": "24.32 - Laminazione a freddo di nastri" },
+    {
+      "value": "24.33",
+      "label": "24.33 - Profilatura mediante formatura o piegatura a freddo"
+    },
+    { "value": "24.34", "label": "24.34 - Trafilatura a freddo" },
+    { "value": "24.41", "label": "24.41 - Produzione di metalli preziosi" },
+    { "value": "24.42", "label": "24.42 - Produzione di alluminio" },
+    {
+      "value": "24.43",
+      "label": "24.43 - Produzione di piombo, zinco e stagno e semilavorati"
+    },
+    { "value": "24.44", "label": "24.44 - Produzione di rame" },
+    {
+      "value": "24.45",
+      "label": "24.45 - Produzione di altri metalli non ferrosi"
+    },
+    {
+      "value": "24.51",
+      "label": "24.51 - Fusione di ghisa e produzione di tubi e raccordi in ghisa"
+    },
+    { "value": "24.52", "label": "24.52 - Fusione di acciaio" },
+    { "value": "24.53", "label": "24.53- Fusione di metalli leggeri" },
+    {
+      "value": "24.54",
+      "label": "24.54 - Fusione di altri metalli non ferrosi"
+    },
+    {
+      "value": "25.11",
+      "label": "25.11 - Fabbricazione di strutture metalliche e parti assemblate di strutture"
+    },
+    {
+      "value": "25.21",
+      "label": "25.21 - Fabbricazione di radiatori e contenitori in metallo per caldaie per il riscaldamento centrale"
+    },
+    {
+      "value": "25.29",
+      "label": "25.29 - Fabbricazione di cisterne, serbatoi e contenitori in metallo per impieghi di stoccaggio o di produzione"
+    },
+    {
+      "value": "25.30",
+      "label": "25.30 - Fabbricazione di generatori di vapore"
+    },
+    {
+      "value": "25.50",
+      "label": "25.50 - Fucinatura, imbutitura, stampaggio e profilatura dei metalli; metallurgia delle polveri"
+    },
+    {
+      "value": "25.61",
+      "label": "25.61 - Trattamento e rivestimento dei metalli"
+    },
+    { "value": "25.62", "label": "25.62 - Lavori di meccanica generale" },
+    {
+      "value": "25.70",
+      "label": "25.70 - Fabbricazione di articoli di coltelleria, utensili e oggetti di ferramenta"
+    },
+    {
+      "value": "25.93",
+      "label": "25.93 - Fabbricazione di prodotti fabbricati con fili metallici, catene e molle"
+    },
+    {
+      "value": "25.94",
+      "label": "25.94 - Fabbricazione di articoli di bulloneria"
+    },
+    {
+      "value": "25.99",
+      "label": "25.99 - Fabbricazione di altri prodotti in metallo nca"
+    },
+    {
+      "value": "27",
+      "label": "27 - Fabbricazione di motori, generatori e trasformatori elettrici e di apparecchiature per la distribuzione e i controllo dell'elettricità"
+    },
+    { "value": "28.11", "label": "28.11 - Fabbricazione di motori e turbine" },
+    {
+      "value": "28.12",
+      "label": "28.12 - Fabbricazione di apparecchiature fluidodinamiche"
+    },
+    {
+      "value": "28.13",
+      "label": "28.13 - Fabbricazione di altre pompe e compressori"
+    },
+    {
+      "value": "28.14",
+      "label": "28.14 - Fabbricazione di altri rubinetti e valvole"
+    },
+    {
+      "value": "28.15",
+      "label": "28.15 - Fabbricazione di cuscinetti, ingranaggi e organi di trasmissione (esclusi quelli idraulici)"
+    },
+    {
+      "value": "28.21",
+      "label": "28.21 - Fabbricazione di forni, bruciatori e sistemi di riscaldamento"
+    },
+    {
+      "value": "28.22",
+      "label": "28.22 - Fabbricazione di macchine e apparecchi di sollevamento e movimentazione"
+    },
+    {
+      "value": "28.24",
+      "label": "28.24 - Fabbricazione di utensili portatili a motore"
+    },
+    {
+      "value": "28.25",
+      "label": "28.25 - Fabbricazione di attrezzature di uso non domestico per la refrigerazione e la ventilazione"
+    },
+    {
+      "value": "28.29",
+      "label": "28.29 - Fabbricazione di altre macchine di impiego generale nca"
+    },
+    {
+      "value": "28.30",
+      "label": "28.30 - Fabbricazione di macchine per l'agricoltura e la silvicoltura"
+    },
+    {
+      "value": "28.41",
+      "label": "28.41 - Fabbricazione di macchine utensili per la formatura dei metalli"
+    },
+    {
+      "value": "28.49",
+      "label": "28.49 - Fabbricazione di altre macchine utensili"
+    },
+    {
+      "value": "28.91",
+      "label": "28.91 - Fabbricazione di macchine per la metallurgia"
+    },
+    {
+      "value": "28.92",
+      "label": "28.92 - Fabbricazione di macchine da miniera, cava e cantiere"
+    },
+    {
+      "value": "28.93",
+      "label": "28.93 - Fabbricazione di macchine per l'industria alimentare, delle bevande e del tabacco"
+    },
+    {
+      "value": "28.94",
+      "label": "28.94 - Fabbricazione di macchine per le industrie tessili, dell'abbigliamento e del cuoio"
+    },
+    {
+      "value": "28.95",
+      "label": "28.95 - Fabbricazione di macchine per l'industria della carta e del cartone (incluse parti e accessori)"
+    },
+    {
+      "value": "28.96",
+      "label": "28.96 - Fabbricazione di macchine per l'industria delle materie plastiche e della gomma"
+    },
+    {
+      "value": "28.99",
+      "label": "28.99 - Fabbricazione di macchine per impieghi speciali nca (incluse parti e accessori)"
+    },
+    { "value": "29.10", "label": "29.10 - Fabbricazione di autoveicoli" },
+    {
+      "value": "29.20",
+      "label": "29.20 - Fabbricazione di carrozzerie per autoveicoli, rimorchi e semirimorchi"
+    },
+    {
+      "value": "29.30",
+      "label": "29.30 - Fabbricazione di parti ed accessori per autoveicoli e loro motori"
+    },
+    {
+      "value": "33.11",
+      "label": "33.11 - Riparazione e manutenzione di prodotti in metallo"
+    },
+    {
+      "value": "33.12",
+      "label": "33.12 - Riparazione e manutenzione di macchinari"
+    },
+    {
+      "value": "33.20",
+      "label": "33.20 - Installazione di macchine ed apparecchiature industriali"
+    },
+    {
+      "value": "46.61",
+      "label": "46.61 - Commercio all'ingrosso di macchine, accessori e utensili agricoli, inclusi i trattori"
+    },
+    {
+      "value": "46.62",
+      "label": "46.62 - Commercio all'ingrosso di macchine utensili"
+    },
+    {
+      "value": "46.63",
+      "label": "46.63 - Commercio all'ingrosso di macchinari per l'estrazione, l'edilizia e l'ingegneria civile"
+    },
+    {
+      "value": "46.69.20",
+      "label": "46.69.20 - Commercio all'ingrosso di materiale elettrico per impianti di uso industriale"
+    },
+    {
+      "value": "46.69.99",
+      "label": "46.69.99 - Commercio all'ingrosso di altre macchine ed attrezzature per l'industria, il commercio e la navigazione nca"
+    }
+  ]
+}

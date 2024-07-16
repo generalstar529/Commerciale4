@@ -1,0 +1,182 @@
+.h-line {
+    border-bottom: 1px solid #4b545c;
+}
+/* .admin-panel {
+    background-color: #eeeeee;
+} */
+.admin-panel .left-panel {
+    width: 250px;
+    z-index: 2;
+}
+.admin-panel .right-panel {
+    width: 100%;
+    background-color: #f9f9f9;
+}
+.admin-panel .right-panel .header {
+    height: 50px;
+    position: relative;
+    background: #f9f9f9;
+    border-bottom: 1px solid #eee;
+}
+
+.admin-panel .right-panel .table-form {
+    padding: 0 30px;
+}
+
+.w-input {
+    max-width: 500px;
+}
+.admin-form {
+    box-shadow: 0 14px 28px rgba(135, 135, 135, 0.25), 0 5px 5px rgba(135, 135, 135, 0.22) !important;
+    border-radius: 4px;
+    border: 1px solid #d0d1d2;
+    width: 600px;
+    height: 400px;
+    padding-top: 60px;
+    align-self: center;
+    margin-bottom: 150px;
+}
+/* define table begin*/
+.body-table {
+    box-shadow: 0 14px 28px rgba(135, 135, 135, 0.25), 0 5px 5px rgba(135, 135, 135, 0.22) !important;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+}
+.body-table .table {
+    color: #696b6d;
+    font-size: 14px;
+}
+.body-table .table > thead {
+    /* color: #5ab2b5 !important; */
+    color: #5d5d5d;
+}
+.body-table .table thead th {
+    border-bottom: 1px solid #dee2e6;
+}
+.body-table .table td,
+.table th {
+    border-top: none;
+}
+.body-table .table-responsive {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btn-size {
+    min-width: 70px;
+}
+.des-table {
+    position: relative;
+    top: 40px;
+    /* background: linear-gradient(60deg, #1d444a, #62b1bb); */
+    /* background-color: #faab17; */
+    background-color: #393e44;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(0, 123, 255, 0.25);
+    border-radius: 4px;
+    height: 80px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.des-table h5 {
+    color: #333;
+}
+.des-table p {
+    color: #333;
+    margin: unset;
+}
+.body-table .search-input {
+    max-width: 200px;
+    float: left;
+    top: 55px;
+    left: 25px;
+}
+/* define table end */
+/* Pagination start */
+.pagination-container {
+    float: right;
+    margin-top: 56px;
+    margin-right: 10px;
+}
+
+.body-table .pagination > li {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    border: none;
+}
+.body-table .pagination > li > a {
+    /* color: #559ba2; */
+    color: #5d5d5d;
+    font-family: initial;
+    min-width: 10px;
+    padding: 1px;
+}
+.body-table .pagination > li > a.active-color {
+    color: white;
+}
+.body-table .pagination li.active {
+    /* background-color: #559ba2 !important; */
+    background-color: black;
+    border-radius: 50%;
+}
+.body-table .pagination > li:hover {
+    border-radius: 50%;
+}
+/* Pagination end */
+.admin-panel .login_wrapper {
+    right: 0;
+    margin: 13% auto 0;
+    max-width: 400px;
+    position: relative;
+}
+.admin-panel .login_content {
+    margin: 0 auto;
+    padding: 25px 0 0;
+    position: relative;
+    text-shadow: 0 1px 0 #fff;
+    text-align: end;
+}
+.admin-panel .login_content h2 {
+    font: 400 25px Helvetica, Arial, sans-serif;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    line-height: 0.1em;
+}
+.admin-panel .login_content h2 > span {
+    padding: 0 15px;
+    background: #fff;
+}
+.admin-panel .login_content .btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    min-width: 80px;
+    padding: 4px;
+}
+.admin-panel .right-panel .alert {
+    position: relative;
+    width: 640px;
+    margin: auto;
+    top: 80px;
+    display: flex;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    vertical-align: middle;
+}
+
+.body-table .table thead > tr {
+    background: #ddd;
+}
+.body-table .table tbody > tr:nth-child(even) {
+    background: #f9f9f9;
+}

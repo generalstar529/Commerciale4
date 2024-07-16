@@ -1,0 +1,43 @@
+.except {
+	padding-top: 46px;
+	height: calc(100vh - 140px);
+}
+
+.except p {
+	margin-bottom: 0;
+}
+
+.except .except-content {
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.except .except-content .title {
+	font-size: 70px;
+}
+
+.except .except-content .error {
+	font-size: 20px;
+	color: gray;
+	opacity: 0.5;
+}
+
+.except .except-content .check {
+	font-size: 20px;
+	opacity: 0.9;
+}
+
+.except .except-content .click {
+	font-size: 20px;
+	opacity: 0.7;
+}
+
+@media (max-width: 576px) {
+	.except {
+		height: 100vh;
+	}
+
+	.except .except-content {
+		max-width: 400px;
+	}
+}

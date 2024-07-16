@@ -1,0 +1,147 @@
+.user-profile .cover-image {
+    height: 180px;
+    width: 100%;
+    border: 1px solid #ddd;
+    background: url("/images/no-cover.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-profile .cover-image > img,
+.user-profile .logo-image > img,
+.user-profile .photos-panel .photo > img {
+    width: 100%;
+    height: 100%;
+}
+
+.user-profile .logo-image {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border: 1px solid #888;
+    background: url("/images/no-logo.jpg") no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: -75px;
+    margin-left: 20px;
+    /* cursor: pointer; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.user-profile .btn-change-logo {
+    margin-left: 180px;
+    margin-top: 10px;
+    min-width: 0;
+    border-radius: 4px;
+}
+
+.user-profile .btn-change-cover {
+    margin-top: 10px;
+    float: right;
+    border-radius: 4px;
+}
+
+.user-profile .info-panel {
+    margin-top: 60px;
+}
+
+.user-profile .char-limit {
+    display: flex;
+    justify-content: flex-end;
+    color: #888;
+    font-size: 14px;
+    margin-top: -4px;
+}
+
+.user-profile .info-panel .info-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 14px;
+}
+.user-profile .info-panel .info-row.-tags {
+    align-items: flex-start;
+}
+.user-profile .info-panel .info-row span {
+    min-width: 125px;
+}
+
+.user-profile .info-panel .info-row > input {
+    min-width: 300px;
+    padding: 6px 8px;
+}
+
+.user-profile .info-panel .info-row .number-hint {
+    position: absolute;
+    margin-left: 244px;
+    width: 100px;
+    color: #666;
+}
+
+.user-profile .info-panel .photos-panel {
+    display: flex;
+}
+
+.user-profile .info-panel .photos-panel .photo {
+    width: 280px;
+    height: 140px;
+    display: flex;
+    justify-content: flex-end;
+    background: #f9f9f9;
+    cursor: pointer;
+    margin-right: 10px;
+    border: 1px solid var(--colorBorder);
+}
+
+.user-profile .info-panel .photos-panel .photo:last-child {
+    margin-right: 0;
+}
+
+.user-profile .info-panel .photos-panel .photo button {
+    min-width: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 0 6px;
+    border-radius: 4px;
+    margin-top: 4px;
+    margin-left: -4px;
+    position: absolute;
+}
+
+.user-profile .company-view .tag-hint {
+    width: 420px;
+}
+.user-profile .company-view .tag-hint label {
+    background: #e8e8e8;
+    border-radius: 4px;
+    margin-right: 6px;
+    padding: 2px 6px;
+    font-size: 14px;
+}
+
+.user-profile .company-view .react-tags {
+    width: 420px;
+    background: #f9f9f9;
+    min-height: 38px;
+    border: 1px solid var(--colorBorder);
+}
+.user-profile .company-view .react-tags__selected-tag {
+    background: #ddd;
+}
+
+.user-profile .company-view .react-tags__selected-tag:hover {
+    background: #ccc;
+}
+
+.user-profile .lang {
+    margin-left: auto;
+}
+
+.user-profile .lang img {
+    height: 15px;
+}

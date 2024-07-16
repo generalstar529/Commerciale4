@@ -1,0 +1,51 @@
+.detail-overview label {
+    font-weight: bold;
+    min-width: 200px;
+}
+
+.detail-overview a {
+    color: #212529;
+}
+
+.detail-overview .post-list {
+    padding-bottom: 300px;
+}
+
+.detail-overview button.more-less {
+    float: right;
+    min-width: 0;
+    background: none;
+    padding: 5px;
+    color: var(--colorText);
+    display: none;
+}
+
+.detail-overview p {
+    font-size: 16px;
+}
+
+@media (max-width: 576px) {
+    .detail-overview {
+        min-height: calc(100vh - 152px);
+    }
+    .detail-overview .post-list {
+        padding-bottom: 20px;
+    }
+
+    .detail-overview h3 {
+        display: none;
+    }
+
+    .detail-overview label {
+        min-width: 130px;
+    }
+
+    .detail-overview p {
+        font-size: 14px !important;
+    }
+    .detail-overview button.more-less {
+        font-size: 14px;
+        display: block;
+        margin-top: -4px;
+    }
+}

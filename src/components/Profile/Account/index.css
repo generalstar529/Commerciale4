@@ -1,0 +1,14 @@
+.user-profile .account-view .info-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 14px;
+}
+.user-profile .account-view .info-row span {
+    min-width: 120px;
+}
+
+.user-profile .account-view .info-row > input {
+    min-width: 360px;
+    padding: 6px 8px;
+}

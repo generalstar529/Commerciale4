@@ -1,0 +1,30 @@
+.image-preview {
+	position: fixed;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	cursor: pointer;
+}
+
+.image-preview .-content {
+	padding: 10px;
+	background: white;
+	border-radius: 4px;
+}
+
+.image-preview img {
+	max-width: calc(100vw - 40px);
+	max-height: calc(100vh - 40px);
+}
+
+.image-preview .btn-prev,
+.image-preview .btn-next {
+	position: absolute;
+	height: 100%;
+}

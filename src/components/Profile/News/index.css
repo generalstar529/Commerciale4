@@ -1,0 +1,8 @@
+.user-profile .news-view input,
+.user-profile .news-view textarea {
+	background-color: white;
+}
+
+.user-profile .news-view .btn-photo {
+	border-radius: 4px;
+}

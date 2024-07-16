@@ -1,0 +1,40 @@
+.forgot-password {
+	width: 460px;
+	padding: 76px 20px 20px 20px;
+	margin: auto;
+}
+
+@media (max-width: 576px) {
+	.forgot-password,
+	.forgot-password input,
+	.forgot-password button {
+		width: 100% !important;
+	}
+}
+.forgot-password div {
+	color: var(--colorText);
+}
+.forgot-password .title {
+	font-size: 28px;
+	font-weight: 500;
+	padding-bottom: 24px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.forgot-password .text {
+	text-align: center;
+	color: #666;
+	padding-bottom: 10px;
+}
+
+.forgot-password i {
+	font-size: 64px;
+	margin-bottom: 10px;
+}
+
+.forgot-password input {
+	background: var(--colorInputBg);
+	border: none;
+	width: 80%;
+}

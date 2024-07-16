@@ -1,0 +1,62 @@
+{
+  "name": "commerciale4",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "^2.648.0",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "dotenv": "^8.2.0",
+    "encoding": "^0.1.12",
+    "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
+    "googleapis": "^49.0.0",
+    "mongodb-client-encryption": "^1.0.1",
+    "mongoose": "^5.9.10",
+    "nodemailer": "^6.4.6",
+    "react": "^16.13.0",
+    "react-autosize-textarea": "^7.0.0",
+    "react-bootstrap": "^1.0.0-beta.17",
+    "react-dom": "^16.13.0",
+    "react-ga": "^2.7.0",
+    "react-image-crop": "^8.5.0",
+    "react-js-pagination": "^3.0.3",
+    "react-localization": "^1.0.15",
+    "react-rangeslider": "^2.2.0",
+    "react-responsive-carousel": "^3.1.51",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-select": "^3.0.8",
+    "react-tag-autocomplete": "^6.0.0-beta.4",
+    "serverless-http": "^2.3.2"
+  },
+  "scripts": {
+    "start": "run-p start:**",
+    "start:lambda": "netlify-lambda serve backend -t 600",
+    "start:app": "react-scripts start",
+    "build": "run-p build:**",
+    "build:lambda": "netlify-lambda build backend",
+    "build:app": "react-scripts build",
+    "deploy:draft": "netlify deploy --dir=build --functions=functions",
+    "deploy:prod": "netlify deploy --dir=build --functions=functions --prod"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "netlify-lambda": "^1.6.3",
+    "npm-run-all": "^4.1.5"
+  }
+}

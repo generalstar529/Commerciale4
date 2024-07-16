@@ -1,0 +1,13 @@
+.lang img {
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    opacity: 0.3;
+}
+.lang img:last-child {
+    margin-right: 0;
+}
+.lang img.active {
+    box-shadow: 0 0 0.5rem gray;
+    opacity: 1;
+}

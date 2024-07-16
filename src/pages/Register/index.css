@@ -1,0 +1,33 @@
+.register-page {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    background-image: url("/images/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 66px 20px 0 20px;
+}
+
+@media (max-width: 576px) {
+    /* .register-page {
+        background: var(--colorBg);
+    } */
+    .register-page .intro {
+        display: none;
+    }
+}
+
+.register-page .intro {
+    text-align: center;
+    min-width: 760px;
+    margin-top: 20px;
+}
+.register-page .intro p {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+.register-page .intro label {
+    color: var(--colorPrimary);
+}
