@@ -5,7 +5,7 @@ import { LangConsumer } from "../../utils/LanguageContext";
 import { STRINGS } from "../../utils/strings";
 import CompanyReadMore from "../CompanyReadMore";
 
-const CompanyCell = (company, viewMode, handleClickProfile) => {
+const CompanyCell = ({ company, viewMode, handleClickProfile }) => {
   const [showReadMore, setShowReadMore] = useState(false);
 
   const spanDistance = React.createRef();
