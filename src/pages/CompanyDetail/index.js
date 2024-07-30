@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useEffect, useState } from "react";
 import DetailHeader from "../../components/Detail/Header";
 import DetailBody from "../../components/Detail/Body";
 import "./index.css";
@@ -10,17 +10,11 @@ import { STRINGS } from "../../utils/strings";
 
 let lang = null;
 
-export default class CompanyDetail extends Component {
-    constructor(props) {
-        super(props);
+const CompanyDetail = () => {
+    const [company, setCompany] = useState(null);
+    const [isProcessing, setIsProcessing] = useState(false);
 
-        this.state = {
-            company: null,
-            isProcessing: false,
-        };
-    }
-
-    componentDidMount = async () => {
+    useEffect(async () => {
         let id = this.props.match.params.id;
         if (!id) {
             return;
@@ -28,14 +22,14 @@ export default class CompanyDetail extends Component {
 
         if (id === "unknown") {
             let selectedCompany = JSON.parse(sessionStorage.getItem(SESSION_SELECTED_COMPANY));
-            this.setState({ profile: { user: selectedCompany, posts: [] } });
+            setCompany({ profile: { user: selectedCompany, posts: [] } })
             return;
         }
 
-        this.setState({ isProcessing: true });
+        setIsProcessing(true);
         let response = await requestAPI(`/companies/${id}`, "GET");
         let result = await response.json();
-        this.setState({ isProcessing: false });
+        setIsProcessing(false);
         if (result.error) {
             console.log(STRINGS[result.error]);
             return;
@@ -50,7 +44,7 @@ export default class CompanyDetail extends Component {
             }
         }
 
-        this.setState({ company: result });
+        setCompany(result);
 
         // .then((res) => {
         //     if (res.status === 1) {
@@ -75,23 +69,22 @@ export default class CompanyDetail extends Component {
         //     console.log(STRINGS.connectionFailed);
         //     this.setState({ isProcessing: false });
         // });
-    };
+    }, []);
 
-    render() {
-        const { company, isProcessing } = this.state;
-        return (
-            <div>
-                <LangConsumer>
-                    {(value) => {
-                        lang = value.lang;
-                    }}
-                </LangConsumer>
-                <div className="company-detail container">
-                    <DetailHeader profile={company && company.profile} />
-                    <DetailBody company={company} />
-                </div>
-                {isProcessing && <SpinnerView />}
+    return (
+        <div>
+            <LangConsumer>
+                {(value) => {
+                    lang = value.lang;
+                }}
+            </LangConsumer>
+            <div className="company-detail container">
+                <DetailHeader profile={company && company.profile} />
+                <DetailBody company={company} />
             </div>
-        );
-    }
+            {isProcessing && <SpinnerView />}
+        </div>
+    );
 }
+
+export default CompanyDetail;
