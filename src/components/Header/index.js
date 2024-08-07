@@ -9,7 +9,7 @@ import Lang from "../Lang";
 import { STRINGS } from "../../utils/strings";
 import CompanyReadMore from "../CompanyReadMore";
 
-class Header extends Component {
+export default class Header extends Component {
   constructor(props) {
     super(props);
 
@@ -397,4 +397,3 @@ class Header extends Component {
     );
   }
 }
-export default Header;
