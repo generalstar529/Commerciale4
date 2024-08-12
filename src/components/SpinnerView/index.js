@@ -1,13 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import "./index.css";
 import { Spinner } from "react-bootstrap";
 
-export default class SpinnerView extends Component {
-	render() {
-		return (
-			<div className="spinner-view">
-				<Spinner animation="border" />
-			</div>
-		);
-	}
-}
+export const SpinnerView = () => {
+  return (
+    <div className="spinner-view">
+      <Spinner animation="border" />
+    </div>
+  );
+};
