@@ -1,36 +1,31 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import "./index.css";
 import { STRINGS } from "../../utils/strings";
 
-export default class SearchInput extends Component {
-    constructor(props) {
-        super(props);
-        this.keyword = null;
-        this.input = React.createRef();
+export const SearchInput = ({ handleSearch }) => {
+  const [keyword, setKeyword] = useState(null);
+
+  const handleKeyPress = (e) => {
+    if (e.key === "Enter") {
+      if (handleSearch) {
+        handleSearch(keyword);
+      }
     }
+  };
 
-    handleKeyPress = (e) => {
-        if (e.key === "Enter") {
-            if (this.props.handleSearch) {
-                this.props.handleSearch(e.target.value);
-            }
-        }
-    };
+  const handleChange = (e) => {
+    setKeyword(e.current.target);
+  };
 
-    setInputValue = (value) => {
-        this.input.current.value = value;
-    };
-
-    handleChange = (e) => {
-        this.keyword = e.target.value;
-    };
-
-    render() {
-        return (
-            <div className="search-input">
-                <i className="fa fa-search"></i>
-                <input type="text" placeholder={STRINGS.companySearch} onKeyPress={this.handleKeyPress} onChange={this.handleChange} ref={this.input} />
-            </div>
-        );
-    }
-}
+  return (
+    <div className="search-input">
+      <i className="fa fa-search"></i>
+      <input
+        type="text"
+        placeholder={STRINGS.companySearch}
+        onChange={handleChange}
+        onKeyPress={handleKeyPress}
+      />
+    </div>
+  );
+};
